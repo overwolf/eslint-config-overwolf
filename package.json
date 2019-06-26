@@ -4,7 +4,7 @@
   "description": "Overwolf's ESlint shareable config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/overwolf/eslint-config-overwolf.git"
+    "url": "git+https://github.com/overwolf/eslint-config-overwolf.git"
   },
   "scripts": {
     "test": "node test/test.js"
@@ -26,5 +26,14 @@
   "peerDependencies": {
     "eslint": ">=6.0.0",
     "eslint-plugin-react": "^7.13.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/overwolf/eslint-config-overwolf/issues"
+  },
+  "homepage": "https://github.com/overwolf/eslint-config-overwolf#readme",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
 }
