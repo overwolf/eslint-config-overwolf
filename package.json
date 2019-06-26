@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-overwolf",
+  "version": "0.0.1",
+  "description": "Overwolf's ESlint shareable config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/overwolf/eslint-config-overwolf.git"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "author": "Overwolf",
+  "license": "MIT",
+  "keywords": [
+    "overwolf",
+    "eslint",
+    "code style"
+  ],
+  "devDependencies": {
+    "eslint": "^6.0.0",
+    "eslint-plugin-react": "^7.13.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=6.0.0",
+    "eslint-plugin-react": "^7.13.0"
+  }
+}
