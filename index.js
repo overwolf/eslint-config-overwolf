@@ -143,7 +143,11 @@ module.exports = {
     'key-spacing': ['error', { 'beforeColon': false, 'afterColon': true }], // all
     'keyword-spacing': ['error', { 'before': true, 'after': true }], // google + standard
     'linebreak-style': 'off', // overwolf
-    'lines-between-class-members': ['error', 'always'], // overwolf
+    'lines-between-class-members': [
+      'error', 'always', {
+        exceptAfterSingleLine: true,
+      },
+    ], // overwolf (allow grouped members)
     'max-len': [
       'error', 80, 2, {
         ignoreUrls: true,
