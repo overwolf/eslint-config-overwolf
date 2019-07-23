@@ -20,12 +20,10 @@
     "code style"
   ],
   "devDependencies": {
-    "eslint": "^6.0.0",
-    "eslint-plugin-react": "^7.13.0"
+    "eslint": "^6.0.0"
   },
   "peerDependencies": {
-    "eslint": ">=6.0.0",
-    "eslint-plugin-react": "^7.13.0"
+    "eslint": ">=6.0.0"
   },
   "bugs": {
     "url": "https://github.com/overwolf/eslint-config-overwolf/issues"
