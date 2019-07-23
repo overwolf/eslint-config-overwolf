@@ -15,9 +15,6 @@ module.exports = {
     'ecmaVersion': 2018,
     'sourceType': 'module',
   },
-  'plugins': [
-    'react',
-  ],
   'rules': {
     // Possible Errors
     'no-cond-assign': ['error', 'always'], // overwolf
