@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-overwolf",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Overwolf's ESlint shareable config",
   "repository": {
     "type": "git",
