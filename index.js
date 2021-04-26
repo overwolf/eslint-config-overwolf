@@ -105,7 +105,8 @@ module.exports = {
     'computed-property-spacing': ['error', 'never'], // google + airbnb
     'eol-last': 'error', // all
     'func-call-spacing': ['error', 'never'], // all
-    'function-paren-newline': ['error', 'consistent'], // airbnb
+    'function-call-argument-newline': ['error', 'consistent'],
+    'function-paren-newline': ['error', 'multiline-arguments'], // airbnb
     'implicit-arrow-linebreak': ['error', 'beside'], // airbnb
     'indent': [
       'error', 2, {
