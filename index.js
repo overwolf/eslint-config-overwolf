@@ -109,8 +109,7 @@ module.exports = {
     'implicit-arrow-linebreak': ['error', 'beside'], // airbnb
     'indent': [
       'error', 2, {
-        // all
-        'SwitchCase': 1,
+        SwitchCase: 1,
         VariableDeclarator: 1,
         outerIIFEBody: 1,
         ArrayExpression: 1,
@@ -118,22 +117,17 @@ module.exports = {
         ImportDeclaration: 1,
         flatTernaryExpressions: false,
         ignoreComments: false,
-
-        // google
-        'CallExpression': {
-          'arguments': 2,
+        CallExpression: {
+          arguments: 1,
         },
-        'FunctionDeclaration': {
-          'body': 1,
-          'parameters': 2,
+        FunctionDeclaration: {
+          body: 1,
+          parameters: 1,
         },
-        'FunctionExpression': {
-          'body': 1,
-          'parameters': 2,
+        FunctionExpression: {
+          body: 1,
+          parameters: 1,
         },
-
-        // airbnb
-        ignoredNodes: ['JSXElement', 'JSXElement > *', 'JSXAttribute', 'JSXIdentifier', 'JSXNamespacedName', 'JSXMemberExpression', 'JSXSpreadAttribute', 'JSXExpressionContainer', 'JSXOpeningElement', 'JSXClosingElement', 'JSXText', 'JSXEmptyExpression', 'JSXSpreadChild'],
       },
     ],
     'jsx-quotes': ['off', 'prefer-double'], // airbnb
@@ -146,12 +140,16 @@ module.exports = {
       },
     ], // overwolf (allow grouped members)
     'max-len': [
-      'error', 80, 2, {
+      'error',
+      {
+        code: 80,
+        tabWidth: 2,
         ignoreUrls: true,
         ignoreComments: true,
         ignoreRegExpLiterals: true,
         ignoreStrings: true,
         ignoreTemplateLiterals: true,
+        // ignorePattern: '^\\s*import\\s+',
       },
     ], // overwolf
     'new-cap': 'error', // google (standard and airbnb varies)
